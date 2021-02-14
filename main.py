@@ -2,7 +2,7 @@ import telebot
 import time
 from random import randint
 
-bot = telebot.TeleBot("1524011995:AAHQ1C1JUCY-12ndWgLNJFxqnCC5rrc3eqU")
+bot = telebot.TeleBot("1116430701:AAFPkyp0vv9XEJcDJvIHo7eTUDHOR2nZiAU")
 
 dates = open("dates.txt", "r+", encoding="utf-8").readlines()
 for date in dates: dates[dates.index(date)] = date.replace("\n", "").split(" - ")
