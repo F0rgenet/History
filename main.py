@@ -2,8 +2,6 @@ import telebot
 import time
 from random import randint
 
-# ПОШЁЛ НАХУЙ
-
 bot = telebot.TeleBot("1116430701:AAFPkyp0vv9XEJcDJvIHo7eTUDHOR2nZiAU")
 
 dates = open("dates.txt", "r+", encoding="utf-8").readlines()
