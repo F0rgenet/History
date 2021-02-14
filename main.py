@@ -7,14 +7,13 @@ bot = telebot.TeleBot("1116430701:AAFPkyp0vv9XEJcDJvIHo7eTUDHOR2nZiAU")
 dates = open("dates.txt", "r+", encoding="utf-8").readlines()
 for date in dates: dates[dates.index(date)] = date.replace("\n", "").split(" - ")
 
-# Тест хахахахаха
-
 global right_date
 global right_answers
 global counter
 global messages
 global is_hard_test
 
+# Тест соси
 
 def generate_question(date_list, right_position, date_needed):
 	return generate_keyboard(
