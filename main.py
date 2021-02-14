@@ -5,8 +5,7 @@ from random import randint
 bot = telebot.TeleBot("1116430701:AAFPkyp0vv9XEJcDJvIHo7eTUDHOR2nZiAU")
 
 dates = open("dates.txt", "r+", encoding="utf-8").readlines()
-for i in range(len(dates)):
-	dates[i] = dates[i].replace("\n", "").split(" - ")
+for date in dates: dates[dates.index(date)] = date.replace("\n", "").split(" - ")
 
 global right_date
 global right_answers
