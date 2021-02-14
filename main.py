@@ -14,6 +14,8 @@ global messages
 global is_hard_test
 
 # Тест соска
+# Соси блять
+
 
 def generate_question(date_list, right_position, date_needed):
 	return generate_keyboard(
