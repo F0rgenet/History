@@ -13,8 +13,7 @@ global counter
 global messages
 global is_hard_test
 
-# Тест соска
-# Соси блять
+'''ОТВЕТ УБИЛ! ВОЛОДИК УМЕР'''
 
 
 def generate_question(date_list, right_position, date_needed):
