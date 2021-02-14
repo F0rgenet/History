@@ -2,11 +2,6 @@ import telebot
 import time
 from random import randint
 
-
-def снилс():
-	print(21231)
-
-
 bot = telebot.TeleBot("1116430701:AAFPkyp0vv9XEJcDJvIHo7eTUDHOR2nZiAU")
 
 
