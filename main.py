@@ -7,7 +7,7 @@ bot = telebot.TeleBot("1116430701:AAFPkyp0vv9XEJcDJvIHo7eTUDHOR2nZiAU")
 dates = open("dates.txt", "r+", encoding="utf-8").readlines()
 for date in dates: dates[dates.index(date)] = date.replace("\n", "").split(" - ")
 
-# Тест
+# Тест хахахахаха
 
 global right_date
 global right_answers
